@@ -19,3 +19,60 @@ for Date-Time you need to import the below packages
 
 
 https://docs.oracle.com/javase/tutorial/datetime/iso/datetime.html
+
+Program to Print Current Date in one way
+
+import java.util.Date;
+public class DateDemo{
+  public static void main(String absg[]){
+      Date date=new Date();   
+      System.out.println(date);
+    }
+}
+
+Program to Print Current Date in another way
+
+import java.util.Date;
+public class DateDemo{
+	static long mills=System.currentTimeMillis();
+  public static void main(String absg[]){
+      Date date=new Date(mills);   
+      System.out.println(date);
+    }
+}
+
+program to print Current Date in sql
+
+import java.util.Date;
+public class DateDemo{
+	static long mills=System.currentTimeMillis();
+  public static void main(String absg[]){
+      Date date=new Date(mills);   
+      System.out.println(date);
+    }
+}
+
+import java.util.*;
+public class DateDemo{
+  
+  public static void main(String absg[]){
+      Date date=java.util.Calendar.getInstance().getTime();   
+      System.out.println(date);
+    }
+}
+
+
+Java.util.Date
+-Date()
+-Date(long milliseconds)
+
+Methods::
+-long getTime()
+-String toString()
+-boolean after(Date date)
+-long getTime()
+-void setTime()
+-------
+
+
+
