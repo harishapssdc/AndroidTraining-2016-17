@@ -82,7 +82,7 @@ public class DateMethods{
 		Date date= new Date();
 		SimpleDateFormat ft=new SimpleDateFormat("yyyy-MM-dd");
   
-		System.out.println("Curren Date:"+ft.format(date));
+		System.out.println("Current Date:"+ft.format(date));
     }
 }
 Program to print the Date and time in specified format
