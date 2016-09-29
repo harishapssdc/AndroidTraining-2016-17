@@ -95,7 +95,7 @@ public class DateMethods{
 		Date date= new Date();
 		SimpleDateFormat ft=new SimpleDateFormat("yyyy-MM-dd 'Current Time' hh:mm:ss a");
   
-		System.out.println("Curren Date:"+ft.format(date));
+		System.out.println("Current Date:"+ft.format(date));
     }
 }
 
