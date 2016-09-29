@@ -70,9 +70,8 @@ Methods::
 -long getTime()
 -String toString()
 -boolean after(Date date)
--long getTime()
 -void setTime()
--------
+
 
 
 
